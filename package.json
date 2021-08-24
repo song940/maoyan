@@ -1,12 +1,30 @@
 {
-  "name": "myapp",
+  "name": "maoyan",
   "version": "0.0.0",
   "description": "my awesome npm package",
   "main": "index.js",
-  "bin": "./bin/index.js",
+  "bin": {
+    "maoyan": "bin/index.js"
+  },
   "scripts": {
     "test": "node test"
   },
   "author": "Lsong",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/maoyan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/maoyan/issues"
+  },
+  "homepage": "https://github.com/song940/maoyan#readme"
 }

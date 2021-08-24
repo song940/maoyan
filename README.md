@@ -1,17 +1,17 @@
-## myapp
+## maoyan
 
 > my awesome npm package
 
 ### Installation
 
 ```bash
-$ npm install myapp
+$ npm install maoyan
 ```
 
 ### Example
 
 ```js
-const myapp = require('myapp');
+const maoyan = require('maoyan');
 
 // your code here
 
